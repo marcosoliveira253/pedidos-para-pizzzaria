@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto; /*margem automatica*/
+    width: 60%; /*deixar a pagina em 60%*/
+    background-image: url(./img/Pizza.jpg);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: center; /*centraliza os elementos que esta dentro do header*/
+    background-color: #ffffff80; /*cor de fundo*/
+    border-radius: 10px;
+    box-shadow: 1px 2px 0 3px;
+    color: black; /*cor da fonte*/
+    text-align: center; /*alinhamento do texto*/
+}
+
+.card{
+    background-color: #ffffff80;
+    padding:30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #000000;
+}
+
+.selecao{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+header ul li{ /*tirar a estilização das listas ordenadas*/
+    list-style: none;
+}
+
+section form ul li{
+    list-style: none;
+}
+
+section form ul li{
+    font-size: 22px;
+    color: white;
+}
+
+section{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+
+section button{
+    margin: 5px;
+    font-size: 20px;
+}
+
+table, th, td{
+    border: 2px solid #111111;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #0a0a0a;
+}
